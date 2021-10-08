@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contoh layout Dengan Element Semantik</title>
+
+    <style>
+        header{
+            padding: 50px 50px 50px 0px;
+            font-family:arial;
+            color: #ffffff;
+            max-width:100%;
+            background-color: #ffcf6d;
+            text-align: center;
+        }
+        .bag1{
+            font-size: 30px ;
+            font-family: arial;
+            background-color: #3452ff;
+            border: 1px #3452ff solid;
+            padding: 50px ;
+            border-radius: 20px; 
+            color: #ffffff;
+            
+        }
+        footer{
+            padding: 50px;
+            background-color:#3452ff ;
+            text-align: center;
+            font-family: arial;
+            font-size: 20px;
+            color: #ffffff;
+        }
+        
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <p style="font-size: 77px;"><b>----- Belajar Semantik -----</b></p>
+        <p style="font-size: 30px;"> Halo, disini saya akan menampilkan apa yang saya buat</p>
+    </header>
+
+    <center style="background-color:#ffcf6d;padding-bottom: 50px;">
+    <table class="bag1" style="width: 80%;">
+        <style>
+            table,td,tr{
+                padding: 20px;
+            }
+        </style>
+        <nav>
+            <tr>
+                <td rowspan="3" style="color: white;">Berikut ini Daftar Praktikum yang saya buat. Untuk tugas ini saya jadikan satu halaman saja agar simple</td>
+                <td><a href="#" style="color: white;">Layout</a></td>
+                <td><a href="#" style="color: white;">Summary</a></td>
+                <td><a href="#" href="#" style="color: white;">Time</a></td>
+            </tr>
+            <tr>
+                
+                <td><a href="#" href="#" style="color: white;">Audio</a></td>
+                <td><a href="#" href="#" style="color: white;">Audio2</a></td>
+                <td><a href="#" href="#" style="color: white;">Video</a></td>
+            </tr>
+            <tr>
+                
+                <td><a href="#" href="#" style="color: white;">VideoGif</a></td>
+                <td><a href="#" href="#" style="color: white;">VideoSub</a></td>
+                <td><a href="#" href="#" style="color: white;">VideoYT</a></td>
+            </tr>
+        </nav>
+    </table>
+    </center>
+
+    <center style="background-color:#ffcf6d;padding-bottom: 50px;">
+    <table class="bag1" style="width: 80%; ">
+        <tr><td style="font-size: 40px;"><b>Praktikum 1 - Layout</b></td></tr>
+        <tr><td>untuk praktikum satu ini sudah saya gabung di layout nya</td></tr>
+    </table>
+    </center>
+
+    <center style="background-color:#ffcf6d;padding-bottom: 50px;">
+    <table class="bag1" style="width: 80%; ">
+        <tr><td style="font-size: 40px;"><b>Praktikum 2 - Summary</b></td></tr>
+        <tr><td>
+            <details>
+                <summary>Lihat Keterangan</summary>
+                Ini adalah summary dengan segala fitur dan tampilanya
+            </details>
+        </td></tr>
+    </table>
+    </center>
+
+    <center style="background-color:#ffcf6d;padding-bottom: 50px;">
+    <table class="bag1" style="width: 80%; ">
+        <tr><td style="font-size: 40px;"><b>Praktikum 3 - Time</b></td></tr>
+        <tr><td>Saya membuat page ini pada <time datetime="2021-10-08"> 8 Oktober 2021</time> dan sampai pukul <time>00.00</time> belum selesai</td></tr>
+    </table>
+    </center>
+
+    <center style="background-color:#ffcf6d;padding-bottom: 50px;">
+    <table class="bag1" style="width: 80%; ">
+        <tr><td style="font-size: 40px;"><b>Praktikum 4 - Audio</b></td></tr>
+        <tr><td>
+            <audio controls>
+                <source src="Dear God - Avenged Sevenvold.mp3" type="audio/mpeg">
+                </audio><p>Ini adalah Lagu dear God</p>
+        </td></tr>
+    </table>
+    </center>
+
+    <center style="background-color:#ffcf6d;padding-bottom: 50px;">
+    <table class="bag1" style="width: 80%; ">
+        <tr><td style="font-size: 40px;"><b>Praktikum 5 - Audio2</b></td></tr>
+        <tr><td>
+            <audio autoplay>
+                <source src="Ungu - Cinta Dalam Hati (Pop Punk).mp3" type="audio/mpeg">
+            </audio><p>Ini autoplay audionya tapi tanpa control</p>
+        </td></tr>
+    </table>
+    </center>
+
+    <center style="background-color:#ffcf6d;padding-bottom: 50px;">
+    <table class="bag1" style="width: 80%; ">
+        <tr><td style="font-size: 40px;"><b>Praktikum 6 - Video</b></td></tr>
+        <tr><td><video controls style="border-radius: 20px;">
+            <source src="cara joget keju.mp4" type="video/mp4"></video>
+        <p>Video ini menjelaskan bagaimana cara joget keju yang baik dan benar</p></td></tr>
+    </table>
+    </center>
+
+    <center style="background-color:#ffcf6d;padding-bottom: 50px;">
+    <table class="bag1" style="width: 80%; ">
+        <tr><td style="font-size: 40px;"><b>Praktikum 7 - VideoGif</b></td></tr>
+        <tr><td><video autoplay loop muted playsinline style="max-width: 800px;border-radius: 20px;">
+            <source src="marcopnx.mp4" type="video/mp4"></video>
+        <p>Video Gif ini memperlihatkan intro karakter Wanpis yaitu Marco</p></td></tr>
+    </table>
+    </center>
+
+    <center style="background-color:#ffcf6d;padding-bottom: 50px;">
+    <table class="bag1" style="width: 80%; ">
+        <tr><td style="font-size: 40px;"><b>Praktikum 8 - VideoSub</b></td></tr>
+        <tr><td><video controls style="border-radius: 20px;">
+            <source src="cara joget keju.mp4" type="video/mp4"/>
+            <track src="keju joget sub.vtt" kind="subtitles" srclang="id" label="indonesia"/>
+        </video>
+        <p>video ini merupakan tutorial keju joget beserta subtitle nya dikit</p></td></tr>
+    </table>
+    </center>
+
+    <center style="background-color:#ffcf6d;padding-bottom: 50px;">
+        <table class="bag1" style="width: 80%; ">
+            <tr><td style="font-size: 40px;"><b>Praktikum 9 - VideoYT</b></td></tr>
+            <tr><td><iframe width="560" height="315" src="https://www.youtube.com/embed/IJx4ydClR6s"></iframe></td></tr>
+        </table>
+        </center>
+
+
+    <footer>
+        copyright &copy;2021 by Yosiko Aditya Pratama
+    </footer>
+
+</body>
+</html>
