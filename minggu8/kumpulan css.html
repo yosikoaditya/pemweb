@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Macam Macam penerapan CSS</title>
+        <!-- praktikum 3, contoh eksternal css-->
+        <link rel="stylesheet" type="text/css" href="stylebox.css">
+
+        <!-- praktikum 1, internal css menggunakan tag style di head-->
+        <!-- praktikum 5, selektor h1 dibawah akan memengaruhi semua h1-->
+        <!-- praktikum 6, selektor class contohnya .box di dalam style-->
+        <!-- praktikum 8, selektor atribut, contohnya ada didalam style-->
+        <!-- praktikum 9, selektor universal, contohnya ada di dalam style ini-->
+        <style> 
+            #header{
+                background-color: lightcoral;
+                border: 1px lightcoral solid;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                padding: 50px;
+            }
+            h1 {
+                margin: auto;
+                font-size: 50px;
+                padding: 20px 40px 20px 40px;
+                width:max-content;
+                color:rgb(255, 251, 43);
+            }
+            .box {
+                background-color: lightcoral;
+                border: 1px lightcoral solid;
+                border-radius: 20px;
+                margin: auto;
+                margin-top: 30px;
+                width: 70%;
+                font-size: 20px;
+                padding: 20px 60px 20px 60px;
+                color: white;
+            }
+            input[type=text]{
+                border:3px lemonchiffon solid;
+                border-radius: 20px;
+            }
+            * {
+                font-family: arial;
+            }
+        </style>
+    </head>
+    <!--praktikum 4 inline css-->
+    <body style="background-color: lemonchiffon;">
+        <!--praktikum 7, menggunakan id #-->
+        <header id="header">
+            <h1>Berikut ini Praktikum CSS</h1>
+            <p style="color:white; margin: auto;text-align:center; width: 40%;">semua praktikum di pdf saya buat 1 file saja. tetapi akan mencangkum seluruhnya. bisa dicek di kodenya langsung. saya tandai</p>
+            
+        </header>   
+        <div class="box">
+            <h2>Praktikum 1</h2>
+            <p>internal css, adalah kode css yang ditulis dengan tag style. contohnya bisa dicek di kodenya</p>
+        </div>
+        <div class="box">
+            <h2>Praktikum 2</h2>
+            <p>eksternal css, adalah kode css diluat kode induk. misalnya pada fong tag p yang saya beri 20px</p>
+        </div>
+        <div class="box">
+            <h2>Praktikum 3</h2>
+            <p>eksternal css, adalah kode ccs yang berada diluar file induk/ utama, dan akan dipanggil nantinya. Contohnya bisa dicek di kode. disini saya mencontohkan tag p dibuat 20px</p>
+        </div>
+        <div class="box">
+            <h2>Praktikum 4</h2>
+            <p>Inline Css, adalah kode yang langsung ditulis pada atribut elemen html. contohnya pada background kuning yang saya taruh di body</p>
+        </div>
+        <div class="box">
+            <h2>Praktikum 5</h2>
+            <p>Selektor tag css, adalah css yang jika dibentuk maka akan memengaruhi semua selektor yang sama. contohnya selektor h1 saya kasih css di style </p>
+        </div>
+        <div class="box">
+            <h2>Praktikum 6</h2>
+            <p>Selektor class css, adalah kode css yang terdapat pada tag style yang diberi tanda . didepanya. contohnya, box warna merah ini lho pakai selector css</p>
+        </div>
+        <div class="box">
+            <h2>Praktikum 7</h2>
+            <p>Selektor id, ini hampir sama seperti class, tapi yang ini boleh digunakan sekali saja dan ada tanda #</p>
+        </div>
+        <div class="box">
+            <h2>Praktikum 8</h2>
+            <p>selektor atribut. misalnya dibawah ini, akan mengubah elemen imput yang atributnya type=text</p>
+            <input type="text" placeholder="nah ini contohnya.."/>
+        </div>
+        <div class="box">
+            <h2>Praktikum 9</h2>
+            <p>selektor universal, adalah css yang kodenya berlaku untuk semuanya. contohnya semua font disini menggunakan ariial</p>
+        </div>
+
+
+
+    </body>
+    
+</html>
