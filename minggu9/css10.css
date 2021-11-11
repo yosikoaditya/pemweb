@@ -1,0 +1,12 @@
+.kotaka{
+    background: blue;
+    width: 200px;
+    height: 200px;
+    animation-name: animasi_kotaka;
+    animation-duration: 2s;
+    }
+    @keyframes animasi_kotaka{
+    from{ background: blue;}
+    to{background: red;}
+    }
+    

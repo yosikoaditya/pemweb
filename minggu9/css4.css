@@ -1,0 +1,19 @@
+.kotaktf1{
+    background: #fcfcfc;
+    padding: 20px;
+    float: left;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    }
+.kotaktf2{
+    background: #fcfcfc;
+    padding: 20px;
+    float: left;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    -ms-transform: translate(50px,-50px); /* Support IE 9 */
+     -webkit-transform: translate(50px,-50px); /* support Safari */
+     transform: translate(50px,-50px); /* Standard syntax */
+    }

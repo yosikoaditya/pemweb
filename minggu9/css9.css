@@ -1,0 +1,23 @@
+.kotakqq{
+    background: rgb(0, 255, 64);
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+    -webkit-transition:  1s;
+    }
+.kotakqq:hover{
+    width: 300px;
+    }
+.kotak2qq{
+    background: rgb(6, 255, 81);
+    width: 100px;
+    height: 100px;
+    transition: 1s,  2s;
+    -webkit-transition:  1s,  2s;
+    
+    }
+.kotak2qq:hover{
+    width: 300px;
+    height: 300px;
+    }
+    

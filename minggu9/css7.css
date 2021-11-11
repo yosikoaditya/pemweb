@@ -1,0 +1,41 @@
+.kotakrt1{
+    background: #fcfcfc;
+    padding: 20px;
+    float: left;
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+}
+.kotakrt2{
+    background: #fcfcfc;
+    padding: 20px;
+    float: left;
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+    -ms-transform: rotate(30deg); /* Support IE 9 */
+    -webkit-transform: rotate(30deg); /* support Safari */
+    transform: rotate(30deg); /* Standard syntax */
+}
+.kotakrt3{
+    background: #fcfcfc;
+    padding: 20px;
+    float: left;
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+    -ms-transform: rotate(90deg); /* Support IE 9 */
+    -webkit-transform: rotate(90deg); /* support Safari */
+    transform: rotate(90deg); /* Standard syntax */
+}
+.kotakrt4{
+    background: #fcfcfc;
+    padding: 20px;
+    float: left;
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+    -ms-transform: rotate(-60deg); /* Support IE 9 */
+    -webkit-transform: rotate(-60deg); /* support Safari */
+    transform: rotate(-60deg); /* Standard syntax */
+}
