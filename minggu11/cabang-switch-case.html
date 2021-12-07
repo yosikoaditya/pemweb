@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head><title>percabangan switch case</title></head>
+    <body>
+        <script>
+            var jawab = prompt("super deall!, silakan buka tiraimu! pilih (1-5)")
+            var hadiah ="0"
+
+            switch(jawab){
+                case "1":
+                    hadiah = "motor ninja";
+                    break;
+                case "2":
+                    hadiah = "motor supra";
+                    break;
+                case "3":
+                    hadiah = "motor astrea";
+                    break;
+                case "4":
+                    hadiah = "motor ducati";
+                    break;
+                case "5":
+                    hadiah = "motor cbr";
+                    break;
+                default:
+                    document.write("opps kamu salah pilih");
+            }
+            if(hadiah === "0") document.write("kamu gagal dapat hadiah");
+            else document.write("selamat kamu mendapatkan"+ hadiah);
+        </script>
+    </body>
+</html>
